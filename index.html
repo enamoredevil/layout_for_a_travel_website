@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mulish:wght@300;400;700&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tour</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <div class="logo">
+                <a href="#"><img src="images/tour_logo.svg" alt="tour_logo"></a>
+            </div>
+            <button id="burger" class="burger__button">
+                <span>
+                </span>
+                <span>
+                </span>
+                <span>
+                </span>
+            </button>
+            <nav class="header__menu">
+                <ul class="header__list">
+                    <li class="header__item"><a class="header__link header__link_selected" href="#">Home</a></li>
+                    <li class="header__item"><a class="header__link" href="#">Destinations</a></li>
+                    <li class="header__item"><a class="header__link" href="#">About</a></li>
+                    <li class="header__item"><a class="header__link" href="#">Partner</a></li>
+                    <li class="header__item">
+                        <a class="header__link_login" href="#">Login</a>
+                        <a class="orange-button_register" href="#">Register</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="explore">
+        <div class="explore__container container">
+            <div class="explore__item">
+                <div class="explore__finder finder">
+                    <h1 class="finder__title">Explore and Travel</h1>
+                    <h2 class="finder__subtitle">Holiday finder</h2>
+                    <div class="finder__line"></div>
+                    <div class="finder__selections selections">
+                        <div class="selections__row">
+                            <div class="select__wrapper">
+                                <select class="select" name="Location" id="">
+                                    <option selected disabled value="Location">Location</option>
+                                    <option value="Moscow">Moscow</option>
+                                    <option value="London">London</option>
+                                </select>
+                                <img src="images/select__arrow.svg" alt="">
+                            </div>
+                            <div class="select__wrapper">
+                                <select class="select" name="Activity" id="">
+                                    <option selected disabled value="Location">Activity</option>
+                                    <option value="Hiking">Hiking</option>
+                                    <option value="Skiing">Skiing</option>
+                                </select>
+                                <img src="images/select__arrow.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="selections__row">
+                            <div class="select__wrapper">
+                                <select class="select" name="Grade" id="">
+                                    <option selected disabled value="Grade">Grade</option>
+                                    <option value="5">5</option>
+                                    <option value="4">4</option>
+                                </select>
+                                <img src="images/select__arrow.svg" alt="">
+                            </div>
+                            <div class="select__wrapper">
+                                <select class="select" name="Date" id="">
+                                    <option selected disabled value="Date">Date</option>
+                                    <option value="Today">Today</option>
+                                    <option value="Tomorrow">Tomorrow</option>
+                                </select>
+                                <img src="images/select__arrow.svg" alt="">
+                            </div>
+                        </div>
+                        <a class="orange-button_explore" href="#">Explore</a>
+                    </div>
+                </div>
+                <div class="explore__image">
+                    <img src="images/explore__image_1.png" alt="explore__image_1">
+                </div>
+            </div>
+            <div class="explore__item explore__item_reverse">
+                <div class="explore__image">
+                    <img src="images/explore__image_2.png" alt="explore__image_2">
+                </div>
+                <div class="explore__description">
+                    <h2 class="explore__title">A new way to explore the world </h2>
+                    <p class="explore__description">For decades travellers have reached for Lonely Planet books when
+                        looking to plan and execute their perfect
+                        trip, but now, they can also let Lonely Planet Experiences lead the way</p>
+                    <a class="orange-button" href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="destinations">
+        <div class="destinations__container container">
+            <div class="view__all_container">
+                <h2 class="title">Featured destinations</h2>
+                <a href="#">
+                    <div class="view__all">
+                        <p>View all</p>
+                        <img src="images/orange__arrow.svg" alt="orange__arrow">
+                    </div>
+                </a>
+            </div>
+            <div class="destinations__items">
+                <div class="destinations__wrapper">
+                    <a href="#">
+                        <div class="destination__item">
+                            <div class="destination__inner">
+                                <img src="images/indonesia.png" alt="Indonesia">
+                                <div class="inner__info">
+                                    <h4>Raja Ampat</h4>
+                                    <p>Indonesia</p>
+                                </div>
+                                <div class="hover__desc">
+                                    <p>The Raja Ampat Islands are an Indonesian archipelago off the northwest tip of
+                                        Bird’s Head Peninsula in West Papua. Comprising hundreds of jungle-covered
+                                        islands, Raja Ampat is known for its beaches and coral reefs rich with marine
+                                        life.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="destination__item">
+                            <div class="destination__inner">
+                                <img src="images/china.png" alt="China">
+                                <div class="inner__info">
+                                    <h4>Fanjingshan</h4>
+                                    <p>China</p>
+                                </div>
+                                <div class="hover__desc">
+                                    <p>The Fanjingshan or Mount Fanjing, located in Tongren, Guizhou province, is the
+                                        highest peak of the Wuling Mountains in southeastern China, at an elevation of
+                                        2,570 m</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="destinations__wrapper">
+                    <a href="#">
+                        <div class="destination__item">
+                            <div class="destination__inner">
+                                <img src="images/switzerland.png" alt="Switzerland">
+                                <div class="inner__info">
+                                    <h4>Vevey</h4>
+                                    <p>Switzerland</p>
+                                </div>
+                                <div class="hover__desc">
+                                    <p>Vevey is a Swiss town on Lake Geneva. On the promenade, marked by a giant fork
+                                        protruding from the lake, is the nutrition museum Alimentarium, with culinary
+                                        objects and workshops.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="destination__item">
+                            <div class="destination__inner">
+                                <img src="images/montenegro.png" alt="Montenegro">
+                                <div class="inner__info">
+                                    <h4>Skadar</h4>
+                                    <p>Montenegro</p>
+                                </div>
+                                <div class="hover__desc">
+                                    <p>Lake Skadar is the largest lake in the Balkan Peninsula with a surface area that
+                                        seasonally fluctuates between 370 km<sup>2</sup> and 530 km<sup>2</sup>. Lake
+                                        Skadar itself is located on the western Balkan</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore__container container">
+            <div class="explore__item">
+                <div class="explore__description">
+                    <h2 class="explore__title">Guides by Thousand<br>
+                        Sunny</h2>
+                    <p class="explore__description">Packed with tips and advice from our on-the-ground experts, our city
+                        guides app (iOS and Android) is the ultimate resource before and during a trip.</p>
+                    <a class="orange-button" href="#">Download</a>
+                </div>
+                <div class="explore__image">
+                    <img src="images/explore__image_3.png" alt="explore__image_3">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials">
+        <div class="testimonials__container container">
+            <h3 class="testimonials__title">Testimonials</h3>
+            <div class="testimonials__description">
+                <div class="testimonials__text">
+                    <ul class="stars">
+                        <li><img src="images/star.svg" alt="star"></li>
+                        <li><img src="images/star.svg" alt="star"></li>
+                        <li><img src="images/star.svg" alt="star"></li>
+                        <li><img src="images/star.svg" alt="star"></li>
+                        <li><img src="images/star.svg" alt="star"></li>
+                    </ul>
+                    <p>“Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis
+                        quis purus. Morbi blandit sit amet turpis nec”</p>
+                    <div class="testimonials__author">
+                        <h4>Edward Newgate</h4>
+                        <p>Founder Circle</p>
+                    </div>
+                </div>
+                <div class="testimonials__image">
+                    <img src="images/testimonials__image.png" alt="person__photo">
+                    <div>
+                        <img src="images/previous.svg" alt="previous">
+                        <img class="testimonials__arrow" src="images/next.svg" alt="next">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="stories">
+        <div class="stories__container container">
+            <div class="view__all_container">
+                <h2 class="title">Trending stories</h2>
+                <a href="#">
+                    <div class="view__all">
+                        <p>View all</p>
+                        <img src="images/orange__arrow.svg" alt="orange__arrow">
+                    </div>
+                </a>
+            </div>
+            <div class="stories__items">
+                <div class="stories__wrapper">
+                    <div class="story">
+                        <img class="story__image" src="images/healing_holiday.png" alt="Healing Holiday">
+                        <h4 class="story__title">The many benefits of
+                            taking a healing holiday</h4>
+                        <p class="story__description">‘Healing holidays’ are on the rise
+                            tohelp maximise your health and happiness...</p>
+                        <a class="story__link" href="#">Read more</a>
+                    </div>
+                    <div class="story">
+                        <img class="story__image" src="images/kyoto_restaurant.png" alt="Healing Holiday">
+                        <h4 class="story__title">The best Kyoto restaurant
+                            to try Japanese food</h4>
+                        <p class="story__description">From tofu to teahouses, here’s our guide to Kyoto’s best
+                            restaurants
+                            to visit...</p>
+                        <a class="story__link" href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="stories__wrapper">
+                    <div class="story">
+                        <img class="story__image" src="images/yucatan.png" alt="Healing Holiday">
+                        <h4 class="story__title">Skip Chichen Itza and head
+                            to this remote Yucatan</h4>
+                        <p class="story__description">It’s remote and challenging to get,
+                            but braving the jungle and exploring
+                            these ruins without the...</p>
+                        <a class="story__link" href="#">Read more</a>
+                    </div>
+                    <div class="story">
+                        <img class="story__image" src="images/surf.png" alt="Healing Holiday">
+                        <h4 class="story__title">Surf’s up at these beginner
+                            spots around the world</h4>
+                        <p class="story__description">If learning to surf has in on your to-
+                            do list for a while, the good news
+                            is: it’s never too late...</p>
+                        <a class="story__link" href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__description">
+                <div class="footer__rights">
+                    <div class="footer__logo">
+                        <a href="#"><img src="images/tour_logo.svg" alt="tour_logo"></a>
+                    </div>
+                    <p class="rights__description">Plan and book your perfect trip with
+                        expert advice, travel tips destination
+                        information from us</p>
+                    <p class="rights__reserved">©2020 Thousand Sunny. All rights reserved</p>
+                </div>
+                <div class="footer__menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><span class="menu__title">Destinations</span></li>
+                        <li class="menu__item"><a class="menu__link" href="">Africa</a></li>
+                        <li class="menu__item"><a class="menu__link" href="">Antarctica</a></li>
+                        <li class="menu__item"><a class="menu__link" href="">Asia</a></li>
+                        <li class="menu__item"><a class="menu__link" href="">Europe</a></li>
+                        <li class="menu__item"><a class="menu__link" href="">America</a></li>
+                    </ul>
+                    <ul class="menu__list">
+                        <li class="menu__item"><span class="menu__title">Shop</span></li>
+                        <li class="menu__item"><a class="menu__link" href="">Destination Guides</a></li>
+                        <li class="menu__item"><a class="menu__link" href="">Pictorial & Gifts</a></li>
+                        <li class="menu__item"><a class="menu__link" href="">Special Offers</a></li>
+                        <li class="menu__item"><a class="menu__link" href="">Delivery Times</a></li>
+                        <li class="menu__item"><a class="menu__link" href="">FAQs</a></li>
+                    </ul>
+                    <ul class="menu__list">
+                        <li class="menu__item"><span class="menu__title">Interests</span></li>
+                        <li class="menu__item"><a class="menu__link" href="">Adventure Travel</a></li>
+                        <li class="menu__item"><a class="menu__link" href="">Art And Culture</a></li>
+                        <li class="menu__item"><a class="menu__link" href="">Wild And Nature</a></li>
+                        <li class="menu__item"><a class="menu__link" href="">Family Holidays</a></li>
+                        <li class="menu__item"><a class="menu__link" href="">Food And Drink</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__logos">
+                <a href="#"><img class="logo__link" src="images/footer__twitter.svg" alt="twitter"></a>
+                <a href="#"><img class="logo__link" src="images/footer__facebook.svg" alt="facebook"></a>
+                <a href="#"><img class="logo__link" src="images/footer__inst.svg" alt="instagram"></a>
+                <a href="#"><img class="logo__link" src="images/footer__in.svg" alt="in"></a>
+                <a href="#"><img class="logo__link" src="images/footer__youtube.svg" alt="youtube"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
